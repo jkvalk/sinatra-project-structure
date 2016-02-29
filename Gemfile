@@ -7,3 +7,5 @@ gem "erubis"
 gem "bundler"
 gem "rack"
 gem "pry"
+gem "thin"
+
