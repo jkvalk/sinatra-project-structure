@@ -4,22 +4,20 @@ module MyApp
       helpers Helpers::ApplicationHelper
 
       before do
-        warn "#{settings.root}/../views#{request.path}"
         self.class.set :views, "#{settings.root}/../views#{request.path}"
       end
 
       configure do
-        #set :views, File.expand_path("../../views", __FILE__)
+        ;
       end
-
+      configure :'sinatra-project-structure' do
+        ;
+      end
       configure :development do
+        ;
       end
-
       configure :production do
-      end
-
-      get "/" do
-        redirect "/base"
+        ;
       end
 
     end
