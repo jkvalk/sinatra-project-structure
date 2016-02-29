@@ -4,7 +4,7 @@ module MyApp
       helpers Helpers::Auth
 
       get "/" do
-        erb :home
+        erb :login
       end
 
     end
