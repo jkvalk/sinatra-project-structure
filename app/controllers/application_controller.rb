@@ -10,9 +10,7 @@ module MyApp
       configure do
         ;
       end
-      configure :'sinatra-project-structure' do
-        ;
-      end
+
       configure :development do
         ;
       end
